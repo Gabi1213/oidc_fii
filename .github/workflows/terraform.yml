@@ -28,7 +28,7 @@ jobs:
           role-session-name: "GitHubActions-CloudPulse"
           aws-region: ${{ secrets.AWS_REGION }}
 
-      # --- LINTING & SECURITY (NON-BLOCKING) ---
+      # --- LINTING & SECURITY (NON-BLOCKING) -----
 
       - name: Install and Run TFLint
         continue-on-error: true
