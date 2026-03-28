@@ -39,7 +39,7 @@ jobs:
 
       - name: Install and Run tfsec
         continue-on-error: true
-        run: |
+        run: | 
           curl -s https://raw.githubusercontent.com/aquasecurity/tfsec/master/scripts/install_linux.sh | bash
           tfsec .
 
